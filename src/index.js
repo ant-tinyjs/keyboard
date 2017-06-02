@@ -18,7 +18,7 @@ class Keyboard {
   /**
    *
    * @param keyCode
-   * @return {{}}
+   * @return {object}
    */
   constructor(keyCode) {
     const key = {};
