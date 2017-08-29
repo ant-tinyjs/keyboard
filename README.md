@@ -24,12 +24,20 @@
 
 引用 Tiny.js 源码
 ``` html
-<script src="http://tinyjs.net/libs/tiny.debug.js"></script>
+<script src="https://gw.alipayobjects.com/as/g/tiny/tiny/1.1.4/tiny.js"></script>
 ```
 ``` js
 var Keyboard = require('tinyjs-plugin-keyboard');
 // 或者
 // import Keyboard from 'tinyjs-plugin-keyboard';
+
+var keySpace = new Keyboard(32);
+keySpace.press = function (e) {
+  console.log('space pressed!')
+}
+keySpace.release = function (e) {
+  console.log('space released!')
+}
 ```
 
 ## 依赖
