@@ -24,7 +24,7 @@ http://tinyjs.net/plugins/tinyjs-plugin-keyboard.html#demo
 
 引用 Tiny.js 源码
 ``` html
-<script src="https://gw.alipayobjects.com/as/g/tiny/tiny/1.2.0/tiny.js"></script>
+<script src="https://gw.alipayobjects.com/os/lib/tinyjs/tiny/1.2.3/tiny.js"></script>
 ```
 ``` js
 var Keyboard = require('tinyjs-plugin-keyboard');

@@ -1,6 +1,8 @@
 /**
- * @file        KeyboardManager
- * @author      fangjun.yfj
+ * @name        tinyjs-plugin-keyboard
+ * @overview    KeyboardManager
+ * @author      yiiqii
+ * @license     MIT
  */
 
 /**
